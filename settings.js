@@ -4,26 +4,26 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "923165123719"
-global.ownername = "Umar Rehman"
-global.ytname = "DarkDevil404"
-global.socialm = "GitHub: Um4r719"
-global.location = "Chaklala Scheme 3 Rawalpindi,Pakistan"
+global.ownernomer = "917849917350"
+global.ownername = "𝕄ℝ   𝕋   𝕆   ℍ   𝕀   𝔻"
+global.ytname = "Tohidkhan_6332"
+global.socialm = "GitHub: Tohidkhan6332"
+global.location = "Haryana Mewat,India"
 
-global.ownernumber = '923165123719'  //creator number
-global.ownername = '𝙐 𝙈 𝘼 𝙍 💛' //owner name
-global.botname = '𝙐𝘿 𝘽𝙐𝙂' //name of the bot
+global.ownernumber = '917849917350'  //creator number
+global.ownername = '𝕄ℝ   𝕋   𝕆   ℍ   𝕀   𝔻' //owner name
+global.botname = '𝕋𝕆ℍ𝕀𝔻 𝔹𝕌𝔾' //name of the bot
 
 //sticker details
-global.packname = 'Sticker By'
-global.author = 'Umar Rehman'
+global.packname = '𝕄ℝ 𝕋𝕆ℍ𝕀𝔻'
+global.author = '𝕄ℝ 𝕋𝕆ℍ𝕀𝔻'
 
 //console view/theme
 global.themeemoji = '🪀'
-global.wm = "Dark Devil"
+global.wm = "𝕄ℝ 𝕋𝕆ℍ𝕀𝔻"
 
 //theme link
-global.link = 'https://wa.me/+923165123719'
+global.link = 'https://chat.whatsapp.com/FPQYQkbqzqw8XOGdDWoxwu'
 
 //custom prefix
 global.prefa = ['','!','.','#','&']
@@ -53,17 +53,17 @@ global.bimg = '//9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAQw
 //reply messages
 global.mess = {
     done: 'Done !',
-    prem: 'Teri Bhen ka Faluda This feature can be used by premium user only',
-    admin: 'Lund k bache This feature can be used by admin only',
-    botAdmin: 'Gandu This feature can only be used when the bot is a group admin ',
-    owner: 'Lun tai wajh This feature can be used by owner only',
+    prem: 'this feature can be used by premium user only',
+    admin: 'This feature can be used by admin only',
+    botAdmin: 'This feature can only be used when the bot is a group admin ',
+    owner: 'This feature can be used by mr Tohid only',
     group: 'This feature is only for groups',
     private: 'This feature is only for private chats',
     wait: 'In process... ',    
     error: 'Error!',
 }
 
-global.thumb = fs.readFileSync('./UmarMedia/thumb.jpg')
+global.thumb = fs.readFileSync('https://telegra.ph/file/042cd0b6121a7923fd5d2.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
